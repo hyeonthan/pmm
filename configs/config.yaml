@@ -1,0 +1,22 @@
+### PATH ###
+BASE_PATH: 'datasets/preprocess_data_250/2a_6s_front'
+is_apply: True
+LOG_PATH: "results/tensorboard"
+
+SAVE_CKPT: True
+CKPT_NAME: pmm
+
+### SETTING ###
+SEED: 42
+GPU_NUM: '0'
+gpu: 'cuda'
+
+### TRIANING ###
+EPOCHS: 300
+batch: 64
+subject_num: 1
+
+### MANUAL ###
+is_domain: True
+model_name: "maan"
+experiment_name: "maan/pmm/s1"

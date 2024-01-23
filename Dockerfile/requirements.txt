@@ -1,0 +1,10 @@
+numpy
+mne
+scikit-learn
+easydict
+mlflow
+tensorboard
+pytz
+torchsummary
+braindecode
+pytorch-lightning

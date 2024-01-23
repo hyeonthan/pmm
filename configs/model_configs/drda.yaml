@@ -1,0 +1,30 @@
+### MODEL HYPER PARAMETER ###
+## SHALLOWCONVNET ##
+sfreq: 250
+num_channels: 22
+dropout_rate: 0.5
+in_channels: 1
+depth: 30
+
+
+## CLASSIFIER ##
+num_classes: 4
+num_domain: 2
+
+## WEIGHT PARAMETER ##
+w_adv: 1
+w_ct: 0.5
+w_t: 1
+w_s: 1 
+
+lr: 1e-4
+weight_decay: 1e-3
+
+
+## PMM MODULE ##
+PMM:
+  in_channels: 1
+dim: 16
+
+related_period: 1000
+non_related_period: 500

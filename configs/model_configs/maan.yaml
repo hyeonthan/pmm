@@ -1,0 +1,26 @@
+### MODEL HYPER PARAMETER ###
+## EMBEDDING ##
+sfreq: 250
+num_channels: 22
+dropout_rate: 0.5
+EMBEDDING:
+  in_channels: 1
+MAL : 1
+
+## CLASSIFIER ##
+num_classes: 4
+num_domain: 2
+
+## WEIGHT PARAMETER ##
+alpha: 0.5
+
+lr: 1e-4
+weight_decay: 1e-3
+
+## PMM MODULE ##
+PMM:
+  in_channels: 1
+dim: 16
+
+related_period: 1000
+non_related_period: 500
