@@ -28,3 +28,25 @@ $ cd pmm
 ### 1.3 Preparing data
 
 > After downloading the [BCI Competition IV 2a](https://www.bbci.de/competition/iv/#download) data, make the data's directory in root/datasets/BCI_Competition_IV/2a and root/datasets/preprocess_data_250/2a_6sd_front
+
+```python
+BASE_PATH = "/opt/pmm/datasets/preprocess_data_250/2a_6sd_front"
+```
+
+## 2. Performance
+
+> Comparison of the performances with the conventional DA methods including the DJDAN, the MAAN, and the DRDA.
+
+
+![image](https://github.com/hyeonthan/pmm/assets/74582262/77c1b847-8ee9-4e98-aad3-f300a6e1b1e0)
+
+
+## 3. Feature visualization
+
+> Feature visualization using the _t_–SNE for S2 and S3 on dataset 2a. <br>(a): w/o (left) and w/ (right) the PMM for S2. (b): w/o (left) and w/ (right) the PMM for S3. Blue, orange, green, and red colors indicate “L”, “R”, “F”, and “T”, respectively.
+
+<img src = "https://github.com/hyeonthan/pmm/assets/74582262/c0bf4511-aa21-4928-b0dc-ddd5463f4da4" width="70%" height="70%">
+
+
+
+
